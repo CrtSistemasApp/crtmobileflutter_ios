@@ -1,0 +1,82 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\Projetos Flutter\\CRT Mobile\\CRT_Mobile_Flutter\\android\\build\\firebase_core\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-ta\\values-ta.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Danyllo\\.gradle\\caches\\transforms-2\\files-2.1\\ef61f369c7a2ad8abbc36c1f5d271eb9\\jetified-play-services-basement-16.0.1\\res\\values-ta\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "224",
+                        "endOffsets": "471"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "224",
+                        "endOffsets": "325"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Danyllo\\.gradle\\caches\\transforms-2\\files-2.1\\fd24535dd44cb47b00ac4816db3309ce\\core-1.1.0\\res\\values-ta\\values-ta.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "330",
+                        "endColumns": "100",
+                        "endOffsets": "426"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\Projetos Flutter\\CRT Mobile\\CRT_Mobile_Flutter\\android\\build\\firebase_core\\intermediates\\res\\merged\\release\\values-ta\\values-ta.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Danyllo\\.gradle\\caches\\transforms-2\\files-2.1\\ef61f369c7a2ad8abbc36c1f5d271eb9\\jetified-play-services-basement-16.0.1\\res\\values-ta\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "224",
+                        "endOffsets": "471"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "224",
+                        "endOffsets": "325"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Danyllo\\.gradle\\caches\\transforms-2\\files-2.1\\fd24535dd44cb47b00ac4816db3309ce\\core-1.1.0\\res\\values-ta\\values-ta.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "330",
+                        "endColumns": "100",
+                        "endOffsets": "426"
+                    }
+                }
+            ]
+        }
+    ]
+}

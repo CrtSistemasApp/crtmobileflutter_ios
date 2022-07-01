@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\documentos\\Projetos Flutter\\CRT_Mobile_Flutter\\build\\image_cropper\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-port\\values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\danil\\.gradle\\caches\\transforms-2\\files-2.1\\c9f1edd6aa250ed7ab21edc9e4471788\\appcompat-1.3.0\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\documentos\\Projetos Flutter\\CRT_Mobile_Flutter\\build\\image_cropper\\intermediates\\res\\merged\\release\\values-port\\values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\danil\\.gradle\\caches\\transforms-2\\files-2.1\\c9f1edd6aa250ed7ab21edc9e4471788\\appcompat-1.3.0\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

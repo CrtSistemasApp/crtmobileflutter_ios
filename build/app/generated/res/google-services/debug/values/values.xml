@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">676793066233-3ahfspar9i6bc8hsiuvmm8fqnf2k0tcn.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">676793066233</string>
+    <string name="google_api_key" translatable="false">AIzaSyDCxF-H0Q8Us3uMwmDof5On5T33OIGjMuU</string>
+    <string name="google_app_id" translatable="false">1:676793066233:android:29ec8d98f54fcc75b6f828</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDCxF-H0Q8Us3uMwmDof5On5T33OIGjMuU</string>
+    <string name="google_storage_bucket" translatable="false">crtmobile-2581b.appspot.com</string>
+    <string name="project_id" translatable="false">crtmobile-2581b</string>
+</resources>

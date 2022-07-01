@@ -1,0 +1,82 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\Projetos Flutter\\CRT Mobile\\CRT_Mobile_Flutter\\android\\build\\firebase_core\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-zh-rCN\\values-zh-rCN.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Danyllo\\.gradle\\caches\\transforms-2\\files-2.1\\fd24535dd44cb47b00ac4816db3309ce\\core-1.1.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "263",
+                        "endColumns": "100",
+                        "endOffsets": "359"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Danyllo\\.gradle\\caches\\transforms-2\\files-2.1\\ef61f369c7a2ad8abbc36c1f5d271eb9\\jetified-play-services-basement-16.0.1\\res\\values-zh-rCN\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "251",
+                        "endColumns": "157",
+                        "endOffsets": "408"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "157",
+                        "endOffsets": "258"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\Projetos Flutter\\CRT Mobile\\CRT_Mobile_Flutter\\android\\build\\firebase_core\\intermediates\\res\\merged\\release\\values-zh-rCN\\values-zh-rCN.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Danyllo\\.gradle\\caches\\transforms-2\\files-2.1\\fd24535dd44cb47b00ac4816db3309ce\\core-1.1.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "263",
+                        "endColumns": "100",
+                        "endOffsets": "359"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Danyllo\\.gradle\\caches\\transforms-2\\files-2.1\\ef61f369c7a2ad8abbc36c1f5d271eb9\\jetified-play-services-basement-16.0.1\\res\\values-zh-rCN\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "251",
+                        "endColumns": "157",
+                        "endOffsets": "408"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "157",
+                        "endOffsets": "258"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+# Referenced at E:\Projetos Flutter\CRT Mobile\CRT_Mobile_Flutter\android\build\app\intermediates\merged_manifests\release\arm64-v8a\AndroidManifest.xml:24
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at E:\Projetos Flutter\CRT Mobile\CRT_Mobile_Flutter\android\build\app\intermediates\merged_manifests\release\arm64-v8a\AndroidManifest.xml:24
+-keep class io.flutter.app.FlutterApplication { <init>(); }

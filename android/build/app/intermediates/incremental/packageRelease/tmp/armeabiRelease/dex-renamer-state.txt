@@ -1,0 +1,4 @@
+#Thu May 26 15:49:07 BRT 2022
+base.0=E\:\\Projetos Flutter\\CRT Mobile\\CRT_Mobile_Flutter\\android\\build\\app\\intermediates\\transforms\\r8\\release\\0\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

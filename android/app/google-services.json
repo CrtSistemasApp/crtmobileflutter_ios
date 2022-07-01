@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "676793066233",
+    "project_id": "crtmobile-2581b",
+    "storage_bucket": "crtmobile-2581b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676793066233:android:29ec8d98f54fcc75b6f828",
+        "android_client_info": {
+          "package_name": "com.example.flutteraplicativo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "676793066233-v2bnjidr110uchjvifj8q7ile5mqe6tg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flutteraplicativo",
+            "certificate_hash": "08bc335e3876eecd44f3c65689a97f14a488fd1f"
+          }
+        },
+        {
+          "client_id": "676793066233-3ahfspar9i6bc8hsiuvmm8fqnf2k0tcn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCxF-H0Q8Us3uMwmDof5On5T33OIGjMuU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "676793066233-3ahfspar9i6bc8hsiuvmm8fqnf2k0tcn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

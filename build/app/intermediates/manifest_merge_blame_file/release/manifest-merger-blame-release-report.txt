@@ -1,0 +1,253 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.flutteraplicativo"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\android\app\src\main\AndroidManifest.xml:3:5-67
+11-->D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\android\app\src\main\AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\android\app\src\main\AndroidManifest.xml:4:5-81
+12-->D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\android\app\src\main\AndroidManifest.xml:4:22-78
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\android\app\src\main\AndroidManifest.xml:5:5-80
+13-->D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\android\app\src\main\AndroidManifest.xml:5:22-77
+14    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+14-->[:open_file] D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\build\open_file\intermediates\library_manifest\release\AndroidManifest.xml:8:5-83
+14-->[:open_file] D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\build\open_file\intermediates\library_manifest\release\AndroidManifest.xml:8:22-80
+15    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\danil\.gradle\caches\transforms-2\files-2.1\1e98be5f51d0ff2a997e48fd40c1d9d0\jetified-firebase-storage-17.0.0\AndroidManifest.xml:26:5-79
+16-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\danil\.gradle\caches\transforms-2\files-2.1\1e98be5f51d0ff2a997e48fd40c1d9d0\jetified-firebase-storage-17.0.0\AndroidManifest.xml:26:22-76
+17
+18    <application
+18-->D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\android\app\src\main\AndroidManifest.xml:6:5-53:19
+19        android:name="io.flutter.app.FlutterApplication"
+19-->D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\android\app\src\main\AndroidManifest.xml:7:9-57
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.5.0] C:\Users\danil\.gradle\caches\transforms-2\files-2.1\ce8312c6226eebf7f77963bf485cb6bb\core-1.5.0\AndroidManifest.xml:24:18-86
+21        android:icon="@mipmap/launcher_icon"
+21-->D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\android\app\src\main\AndroidManifest.xml:10:9-45
+22        android:label="Crt Sistemas"
+22-->D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\android\app\src\main\AndroidManifest.xml:8:9-37
+23        android:usesCleartextTraffic="true" >
+23-->D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\android\app\src\main\AndroidManifest.xml:9:9-44
+24        <uses-library
+24-->D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\android\app\src\main\AndroidManifest.xml:11:9-13:36
+25            android:name="org.apache.http.legacy"
+25-->D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\android\app\src\main\AndroidManifest.xml:12:9-46
+26            android:required="false" />
+26-->D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\android\app\src\main\AndroidManifest.xml:13:9-33
+27
+28        <activity
+28-->D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\android\app\src\main\AndroidManifest.xml:14:9-42:20
+29            android:name="com.example.flutteraplicativo.MainActivity"
+29-->D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\android\app\src\main\AndroidManifest.xml:15:13-41
+30            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+30-->D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\android\app\src\main\AndroidManifest.xml:18:13-163
+31            android:hardwareAccelerated="true"
+31-->D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\android\app\src\main\AndroidManifest.xml:19:13-47
+32            android:launchMode="singleTop"
+32-->D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\android\app\src\main\AndroidManifest.xml:16:13-43
+33            android:theme="@style/LaunchTheme"
+33-->D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\android\app\src\main\AndroidManifest.xml:17:13-47
+34            android:windowSoftInputMode="adjustResize" >
+34-->D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\android\app\src\main\AndroidManifest.xml:20:13-55
+35
+36            <!--
+37                 Specifies an Android theme to apply to this Activity as soon as
+38                 the Android process has started. This theme is visible to the user
+39                 while the Flutter UI initializes. After that, this theme continues
+40                 to determine the Window background behind the Flutter UI.
+41            -->
+42            <meta-data
+42-->D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\android\app\src\main\AndroidManifest.xml:25:13-28:17
+43                android:name="io.flutter.embedding.android.NormalTheme"
+43-->D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\android\app\src\main\AndroidManifest.xml:26:15-70
+44                android:resource="@style/NormalTheme" />
+44-->D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\android\app\src\main\AndroidManifest.xml:27:15-52
+45            <!--
+46                 Displays an Android View that continues showing the launch screen
+47                 Drawable until Flutter paints its first frame, then this splash
+48                 screen fades out. A splash screen is useful to avoid any visual
+49                 gap between the end of Android's launch screen and the painting of
+50                 Flutter's first frame.
+51            -->
+52            <meta-data
+52-->D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\android\app\src\main\AndroidManifest.xml:34:13-37:17
+53                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+53-->D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\android\app\src\main\AndroidManifest.xml:35:15-79
+54                android:resource="@drawable/launch_background" />
+54-->D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\android\app\src\main\AndroidManifest.xml:36:15-61
+55
+56            <intent-filter>
+56-->D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\android\app\src\main\AndroidManifest.xml:38:13-41:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\android\app\src\main\AndroidManifest.xml:39:17-68
+57-->D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\android\app\src\main\AndroidManifest.xml:39:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\android\app\src\main\AndroidManifest.xml:40:17-76
+59-->D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\android\app\src\main\AndroidManifest.xml:40:27-74
+60            </intent-filter>
+61        </activity>
+62        <activity
+62-->D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\android\app\src\main\AndroidManifest.xml:43:9-47:11
+63            android:name="com.yalantis.ucrop.UCropActivity"
+63-->D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\android\app\src\main\AndroidManifest.xml:44:13-60
+64            android:screenOrientation="portrait"
+64-->D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\android\app\src\main\AndroidManifest.xml:45:13-49
+65            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+65-->D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\android\app\src\main\AndroidManifest.xml:46:13-69
+66        <!--
+67             Don't delete the meta-data below.
+68             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+69        -->
+70        <meta-data
+70-->D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\android\app\src\main\AndroidManifest.xml:50:9-52:33
+71            android:name="flutterEmbedding"
+71-->D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\android\app\src\main\AndroidManifest.xml:51:13-44
+72            android:value="2" />
+72-->D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\android\app\src\main\AndroidManifest.xml:52:13-30
+73
+74        <service
+74-->[:firebase_auth] D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:19
+75            android:name="com.google.firebase.components.ComponentDiscoveryService"
+75-->[:firebase_auth] D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:8:18-89
+76            android:exported="false" >
+76-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\danil\.gradle\caches\transforms-2\files-2.1\4cc174c72f93259a8be847d92749bf3d\jetified-firebase-auth-17.0.0\AndroidManifest.xml:35:13-37
+77            <meta-data
+77-->[:firebase_auth] D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+78                android:name="com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar"
+78-->[:firebase_auth] D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:10:17-122
+79                android:value="com.google.firebase.components.ComponentRegistrar" />
+79-->[:firebase_auth] D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+80            <meta-data
+80-->[:firebase_storage] D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+81                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+81-->[:firebase_storage] D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:10:17-126
+82                android:value="com.google.firebase.components.ComponentRegistrar" />
+82-->[:firebase_storage] D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+83            <meta-data
+83-->[:firebase_core] D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+84                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
+84-->[:firebase_core] D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:10:17-123
+85                android:value="com.google.firebase.components.ComponentRegistrar" />
+85-->[:firebase_core] D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+86            <meta-data
+86-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\danil\.gradle\caches\transforms-2\files-2.1\4cc174c72f93259a8be847d92749bf3d\jetified-firebase-auth-17.0.0\AndroidManifest.xml:36:13-38:85
+87                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+87-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\danil\.gradle\caches\transforms-2\files-2.1\4cc174c72f93259a8be847d92749bf3d\jetified-firebase-auth-17.0.0\AndroidManifest.xml:37:17-109
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\danil\.gradle\caches\transforms-2\files-2.1\4cc174c72f93259a8be847d92749bf3d\jetified-firebase-auth-17.0.0\AndroidManifest.xml:38:17-82
+89            <meta-data
+89-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\danil\.gradle\caches\transforms-2\files-2.1\1e98be5f51d0ff2a997e48fd40c1d9d0\jetified-firebase-storage-17.0.0\AndroidManifest.xml:31:13-33:85
+90                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+90-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\danil\.gradle\caches\transforms-2\files-2.1\1e98be5f51d0ff2a997e48fd40c1d9d0\jetified-firebase-storage-17.0.0\AndroidManifest.xml:32:17-107
+91                android:value="com.google.firebase.components.ComponentRegistrar" />
+91-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\danil\.gradle\caches\transforms-2\files-2.1\1e98be5f51d0ff2a997e48fd40c1d9d0\jetified-firebase-storage-17.0.0\AndroidManifest.xml:33:17-82
+92        </service>
+93
+94        <provider
+94-->[:image_picker] D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:11:9-19:20
+95            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+95-->[:image_picker] D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:12:13-82
+96            android:authorities="com.example.flutteraplicativo.flutter.image_provider"
+96-->[:image_picker] D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:13:13-74
+97            android:exported="false"
+97-->[:image_picker] D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:14:13-37
+98            android:grantUriPermissions="true" >
+98-->[:image_picker] D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:15:13-47
+99            <meta-data
+99-->[:image_picker] D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:16:13-18:75
+100                android:name="android.support.FILE_PROVIDER_PATHS"
+100-->[:image_picker] D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:17:17-67
+101                android:resource="@xml/flutter_image_picker_file_paths" />
+101-->[:image_picker] D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:18:17-72
+102        </provider>
+103        <provider
+103-->[:printing] D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\build\printing\intermediates\library_manifest\release\AndroidManifest.xml:8:9-16:20
+104            android:name="net.nfet.flutter.printing.PrintFileProvider"
+104-->[:printing] D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\build\printing\intermediates\library_manifest\release\AndroidManifest.xml:9:13-71
+105            android:authorities="com.example.flutteraplicativo.flutter.printing"
+105-->[:printing] D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\build\printing\intermediates\library_manifest\release\AndroidManifest.xml:10:13-68
+106            android:exported="false"
+106-->[:printing] D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\build\printing\intermediates\library_manifest\release\AndroidManifest.xml:11:13-37
+107            android:grantUriPermissions="true" >
+107-->[:printing] D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\build\printing\intermediates\library_manifest\release\AndroidManifest.xml:12:13-47
+108            <meta-data
+108-->[:image_picker] D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:16:13-18:75
+109                android:name="android.support.FILE_PROVIDER_PATHS"
+109-->[:image_picker] D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:17:17-67
+110                android:resource="@xml/flutter_printing_file_paths" />
+110-->[:image_picker] D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:18:17-72
+111        </provider>
+112        <provider
+112-->[:open_file] D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\build\open_file\intermediates\library_manifest\release\AndroidManifest.xml:12:9-21:20
+113            android:name="com.crazecoder.openfile.FileProvider"
+113-->[:open_file] D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\build\open_file\intermediates\library_manifest\release\AndroidManifest.xml:13:13-64
+114            android:authorities="com.example.flutteraplicativo.fileProvider.com.crazecoder.openfile"
+114-->[:open_file] D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\build\open_file\intermediates\library_manifest\release\AndroidManifest.xml:14:13-88
+115            android:exported="false"
+115-->[:open_file] D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\build\open_file\intermediates\library_manifest\release\AndroidManifest.xml:15:13-37
+116            android:grantUriPermissions="true" >
+116-->[:open_file] D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\build\open_file\intermediates\library_manifest\release\AndroidManifest.xml:16:13-47
+117            <meta-data
+117-->[:image_picker] D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:16:13-18:75
+118                android:name="android.support.FILE_PROVIDER_PATHS"
+118-->[:image_picker] D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:17:17-67
+119                android:resource="@xml/filepaths" />
+119-->[:image_picker] D:\documentos\Projetos Flutter\CRT_Mobile_Flutter\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:18:17-72
+120        </provider>
+121
+122        <activity
+122-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\danil\.gradle\caches\transforms-2\files-2.1\4cc174c72f93259a8be847d92749bf3d\jetified-firebase-auth-17.0.0\AndroidManifest.xml:24:9-31:50
+123            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+123-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\danil\.gradle\caches\transforms-2\files-2.1\4cc174c72f93259a8be847d92749bf3d\jetified-firebase-auth-17.0.0\AndroidManifest.xml:25:13-85
+124            android:excludeFromRecents="true"
+124-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\danil\.gradle\caches\transforms-2\files-2.1\4cc174c72f93259a8be847d92749bf3d\jetified-firebase-auth-17.0.0\AndroidManifest.xml:26:13-46
+125            android:exported="true"
+125-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\danil\.gradle\caches\transforms-2\files-2.1\4cc174c72f93259a8be847d92749bf3d\jetified-firebase-auth-17.0.0\AndroidManifest.xml:27:13-36
+126            android:launchMode="singleTask"
+126-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\danil\.gradle\caches\transforms-2\files-2.1\4cc174c72f93259a8be847d92749bf3d\jetified-firebase-auth-17.0.0\AndroidManifest.xml:28:13-44
+127            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+127-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\danil\.gradle\caches\transforms-2\files-2.1\4cc174c72f93259a8be847d92749bf3d\jetified-firebase-auth-17.0.0\AndroidManifest.xml:29:13-102
+128            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+128-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\danil\.gradle\caches\transforms-2\files-2.1\4cc174c72f93259a8be847d92749bf3d\jetified-firebase-auth-17.0.0\AndroidManifest.xml:30:13-72
+129
+130        <provider
+130-->[com.google.firebase:firebase-common:17.0.0] C:\Users\danil\.gradle\caches\transforms-2\files-2.1\d9684f3cc827b3331ba8d7706d417e55\jetified-firebase-common-17.0.0\AndroidManifest.xml:12:9-16:39
+131            android:name="com.google.firebase.provider.FirebaseInitProvider"
+131-->[com.google.firebase:firebase-common:17.0.0] C:\Users\danil\.gradle\caches\transforms-2\files-2.1\d9684f3cc827b3331ba8d7706d417e55\jetified-firebase-common-17.0.0\AndroidManifest.xml:13:13-77
+132            android:authorities="com.example.flutteraplicativo.firebaseinitprovider"
+132-->[com.google.firebase:firebase-common:17.0.0] C:\Users\danil\.gradle\caches\transforms-2\files-2.1\d9684f3cc827b3331ba8d7706d417e55\jetified-firebase-common-17.0.0\AndroidManifest.xml:14:13-72
+133            android:exported="false"
+133-->[com.google.firebase:firebase-common:17.0.0] C:\Users\danil\.gradle\caches\transforms-2\files-2.1\d9684f3cc827b3331ba8d7706d417e55\jetified-firebase-common-17.0.0\AndroidManifest.xml:15:13-37
+134            android:initOrder="100" />
+134-->[com.google.firebase:firebase-common:17.0.0] C:\Users\danil\.gradle\caches\transforms-2\files-2.1\d9684f3cc827b3331ba8d7706d417e55\jetified-firebase-common-17.0.0\AndroidManifest.xml:16:13-36
+135
+136        <activity
+136-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\danil\.gradle\caches\transforms-2\files-2.1\36fca405b60ad8ebaf504b3345f09bfa\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+137            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+137-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\danil\.gradle\caches\transforms-2\files-2.1\36fca405b60ad8ebaf504b3345f09bfa\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+138            android:exported="false"
+138-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\danil\.gradle\caches\transforms-2\files-2.1\36fca405b60ad8ebaf504b3345f09bfa\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+139            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+139-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\danil\.gradle\caches\transforms-2\files-2.1\36fca405b60ad8ebaf504b3345f09bfa\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+140
+141        <meta-data
+141-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\danil\.gradle\caches\transforms-2\files-2.1\ea63c9293c35e24483a0438b28298689\jetified-play-services-basement-16.1.0\AndroidManifest.xml:23:9-25:69
+142            android:name="com.google.android.gms.version"
+142-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\danil\.gradle\caches\transforms-2\files-2.1\ea63c9293c35e24483a0438b28298689\jetified-play-services-basement-16.1.0\AndroidManifest.xml:24:13-58
+143            android:value="@integer/google_play_services_version" />
+143-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\danil\.gradle\caches\transforms-2\files-2.1\ea63c9293c35e24483a0438b28298689\jetified-play-services-basement-16.1.0\AndroidManifest.xml:25:13-66
+144    </application>
+145
+146</manifest>
