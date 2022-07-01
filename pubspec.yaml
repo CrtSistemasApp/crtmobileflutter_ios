@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 name: flutteraplicativo
 description: Aplicativo Flutter
 
@@ -286,5 +285,4 @@ flutter:
 analyzer:
   strong-mode: true
   language:
->>>>>>> ce7b0361f10848c2f5ccac29e9acf5cdc7e37127
     enableSuperMixins: true
