@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 analyzer:
   errors:
+=======
+analyzer:
+  errors:
+>>>>>>> ce7b0361f10848c2f5ccac29e9acf5cdc7e37127
     mixin_inherits_from_not_object: ignore
